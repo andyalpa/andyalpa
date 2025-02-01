@@ -29,6 +29,10 @@
 
 }
 
+[data-theme="dark"] {
+  --bodyColor: hsl(0, 0%, 12%);
+}
+
 @media screen and (max-width: 1024px) {
   :root {
     --h1FontSize: 1.75rem;
@@ -45,6 +49,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 
 html {

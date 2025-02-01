@@ -1,6 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 import Logo from '../../assets/logo.svg';
+import Darkmode from '../Darkmode';
 
 const Sidebar = () => {
     return ( 
@@ -8,6 +9,8 @@ const Sidebar = () => {
             <a href="#home">
                 <img src={Logo} alt="Logo" className="logo"/>
             </a>
+
+            <Darkmode/>
 
             <nav className='nav'>
                 <div className='nav__menu'>
@@ -18,13 +21,13 @@ const Sidebar = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#about" className="nav__link">
-                                <i className="icon-user-following"></i>
+                            <a href="#services" className="nav__link">
+                                <i className="icon-layers"></i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#projects" className="nav__link">
-                                <i className="icon-briefcase"></i>
+                            <a href="#about" className="nav__link">
+                                <i className="icon-user-following"></i>
                             </a>
                         </li>
                         <li className="nav__item">
@@ -33,13 +36,18 @@ const Sidebar = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link">
-                                <i className="icon-bubble"></i>
+                            <a href="#projects" className="nav__link">
+                                <i className="icon-briefcase"></i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#portafolio" className="nav__link">
-                                <i className="icon-layers"></i>
+                            <a href="#testimonials" className="nav__link">
+                                <i className="icon-bubbles"></i>
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="#contact" className="nav__link">
+                                <i className="icon-note"></i>
                             </a>
                         </li>
 

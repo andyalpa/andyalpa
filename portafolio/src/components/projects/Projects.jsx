@@ -32,7 +32,7 @@ const Projects = () => {
 
     return ( 
         <div className="projects container section" id='projects'>
-            <h2 className="section__title">Recent Projects</h2>
+            <h2 className="section-title">Recent Projects</h2>
             <div className="projects__filters">
                 <span className="project__item"></span>
             </div>

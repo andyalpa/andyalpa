@@ -15,8 +15,8 @@ function App() {
     <Sidebar />
     <main className="main-content">
       <Home />
-      <About />
       <Services />
+      <About />
       <Resume />
       <Projects />
       <Testimonials />

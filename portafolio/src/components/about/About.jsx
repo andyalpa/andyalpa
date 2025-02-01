@@ -16,7 +16,7 @@ const About = () => {
 
     return ( 
         <div className="about container section" id='about'>
-        <h2 className="section__tittle">About Me</h2>
+        <h2 className="section-title">About Me</h2>
         <div className="about__container grid">
             <img src={Me} alt="" className="about__img" />
 
