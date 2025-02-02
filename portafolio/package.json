@@ -1,5 +1,5 @@
 {
-  "homepage": "http://andyalpa.github.io/andyalpa",
+  "homepage": "http://andyalpa.github.io/andyalpa/portafolio",
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d portafolio/build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "web-vitals": "^4.2.4"
   }
 }
