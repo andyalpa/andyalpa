@@ -98,6 +98,7 @@ const Testimonials = () => {
 
       <Swiper
         className="testimonials__container grid"
+        data-aos="zoom-out-up"
         modules={[Pagination]}
         spaceBetween={30}
         slidesPerView={1}

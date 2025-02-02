@@ -140,7 +140,7 @@ const Resume = () => {
       <h2 className="section-title">Experience</h2>
 
       <div className="resume__container grid">
-        <div className="timeline grid">
+        <div className="timeline grid" data-aos="fade-up-right">
           {experiences.map((experience, id) => {
             if (experience.category === "education") {
               return (
@@ -157,7 +157,7 @@ const Resume = () => {
           })}
         </div>
 
-        <div className="timeline grid">
+        <div className="timeline grid" data-aos="fade-up-left">
           {experiences.map((experience, index) => {
             if (experience.category === "experience") {
               return (

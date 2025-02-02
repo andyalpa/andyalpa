@@ -16,17 +16,17 @@
     box-shadow: var(--darkShadow);
 }
 
-.services__card:nth-child(1) {
+.services__container > div:nth-child(1) .services__card {
     background-color: rgb(108, 108, 229);
     box-shadow: 0 5px 20px 0 rgba(108, 108, 229, 50%);
 }
 
-.services__card:nth-child(2) {
+.services__container > div:nth-child(2) .services__card {
     background-color: rgb(249, 215, 76);
     box-shadow: 0 5px 20px 0 rgba(249, 215, 76, 50%);
 }
 
-.services__card:nth-child(3) {
+.services__container > div:nth-child(3) .services__card {
     background-color: rgb(249, 123, 139);
     box-shadow: 0 5px 20px 0 rgba(249, 123, 139, 50%);
 }
@@ -41,11 +41,11 @@
     color: white;
 }
 
-.services__card:nth-child(2) .services__title {
+.services__container > div:nth-child(2) .services__title {
     color: hsl(244, 24%, 26%);
 }
 
-.services__card:nth-child(2) .services__description {
+.services__container > div:nth-child(2) .services__description {
     color: hsl(244, 16%, 43%);
 }
 

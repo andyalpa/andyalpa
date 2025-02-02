@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div className="about container section" id="about">
       <h2 className="section-title">About Me</h2>
-      <div className="about__container grid">
+      <div className="about__container grid" data-aos="fade-up">
         <img src={Me} alt="" className="about__img" />
 
         <div className="about__data grid">

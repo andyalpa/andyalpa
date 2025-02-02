@@ -22,7 +22,7 @@ function Contact() {
     <div className="contact container section" id="contact">
       <h2 className="section-title">Get In Touch</h2>
 
-      <div className="contact__container grid">
+      <div className="contact__container grid" data-aos="fade-up">
         <div className="contact__info">
           <h3 className="contact__title">Let's talk about something!</h3>
           <p className="contact__details">

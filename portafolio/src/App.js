@@ -8,6 +8,10 @@ import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Testimonials from './components/testimonials/Testimonials';
 import Resume from './components/resume/Resume';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (

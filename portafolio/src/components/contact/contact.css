@@ -72,6 +72,11 @@
 
 .contact__form > .btn {
     position: relative;
-    left: 90px
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact__title, .contact__details {
+    text-align: center;
 }
 }

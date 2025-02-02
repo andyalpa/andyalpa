@@ -37,7 +37,7 @@ const Projects = () => {
                 <span className="project__item"></span>
             </div>
 
-            <div className="projects__container grid">
+            <div className="projects__container grid" data-aos="zoom-in-up">
                 {ProjectsArray.map((project, index) => (
                     <div className="project__card" key={index}>
                         <div className="project__thumbnail">
@@ -47,6 +47,9 @@ const Projects = () => {
                         <h3 className="project__title">{project.name}</h3>
                         <a href={project.githubWebsite} className="project__btn">
                             <i className="icon-link project__btn-icon"></i>
+                        </a>
+                        <a href={project.liveDemo} className="project__btn project__btn--right">
+                            <i className="icon-control-play project__btn-icon"></i>
                         </a>
                     </div>
                 ))}

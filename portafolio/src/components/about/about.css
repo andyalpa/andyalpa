@@ -101,13 +101,12 @@
     border-bottom: 10px solid var(--containerColor);
     border-left: 10px solid transparent;
     top: -3%;
-    left: 10.00rem;
-}
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-.btn {
+  .btn {
     justify-self: center;
-}
-
-
+  }
 }
 

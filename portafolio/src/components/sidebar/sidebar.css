@@ -28,7 +28,7 @@
 }
 
 .nav__link:hover {
-    color: hsl(43, 100%, 68%);
+    color: hsl(0, 100%, 68%);
 }
 
 .copyright {
