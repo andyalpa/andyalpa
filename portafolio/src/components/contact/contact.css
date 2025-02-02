@@ -52,3 +52,26 @@
 .area textarea {
     resize: none;
 }
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form-group {
+    grid-template-columns: none;
+  }
+
+  .contact__form-item {
+    height: 3rem;
+  }
+
+  .area {
+    height: 10.25rem;
+}
+
+.contact__form > .btn {
+    position: relative;
+    left: 90px
+}
+}

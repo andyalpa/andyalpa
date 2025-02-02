@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Me from '../../assets/avatar-1.svg'
+import Me from '../../assets/558d5722c0b84e7b41e53bf8158be2df-xlarge.jpg'
 import Socials from './Socials'
 import { Scrolling } from './Scrolling'
 

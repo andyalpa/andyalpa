@@ -11,15 +11,31 @@
     />
 
     <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    />
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
 
     <!-- Font Awasome -->
-    <script src="https://kit.fontawesome.com/da58710068.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/da58710068.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("FXHDlwEA-I5IhBZS9");
+      })();
+    </script>
   </body>
 </html>

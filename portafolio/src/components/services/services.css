@@ -1,5 +1,5 @@
 .services__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 1.875rem;
 }
 
@@ -42,13 +42,26 @@
 }
 
 .services__card:nth-child(2) .services__title {
-    color: var(--titleColor);
+    color: hsl(244, 24%, 26%);
 }
 
 .services__card:nth-child(2) .services__description {
-    color: var(--textColor);
+    color: hsl(244, 16%, 43%);
 }
 
 .services__img {
     margin-bottom: 1.25rem;
+    width: 96px;
 }
+
+@media screen and (max-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(1 ,1fr);
+    row-gap: 1.875rem;
+  }
+
+  .services__card {
+    padding: 1.25rem;
+  }
+}
+

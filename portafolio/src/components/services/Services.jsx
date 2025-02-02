@@ -1,6 +1,6 @@
 import React from 'react';
 import './services.css';
-import Image1 from '../../assets/service-1.svg'; //Change this images for the real ones
+import Image1 from '../../assets/11494033.png'; //Change this images for the real ones
 import Image2 from '../../assets/service-2.svg';
 import Image3 from '../../assets/service-3.svg';
 
@@ -8,24 +8,18 @@ const services = [
     {
       id: 1,
       image: Image1,
-      title: "UI/UX design",
+      title: "Troubleshooting",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "I diagnose and fix computer hardware and software issues using various testing methods. This ensures reliable and efficient computer systems, minimizing downtime and maximizing productivity.",
     },
     {
       id: 2,
       image: Image2,
       title: "Web Development",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "I build and maintain websites using React for dynamic user interfaces, Python-Flask for backend development, and SQL for database management. This ensures efficient, responsive, and reliable web applications.",
     },
-    {
-      id: 3,
-      image: Image3,
-      title: "Photography",
-      description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
-    },
+
   ];
   
 

@@ -13,7 +13,16 @@
 }
 
 .home__img {
-   margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+   }
+
+   .home__img img {
+    border-radius: 50%;
    }
 
 .home__name {
@@ -26,6 +35,8 @@
     display: flex;
     column-gap: 1.75rem;
     margin: .5rem 0;
+    justify-content: center;
+    padding-bottom: 1rem;
     
 }
 
@@ -95,4 +106,19 @@
     left: 50%;
     transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .home__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home__name {
+    font-size: var(--h2FontSize);
+  }
+
+  .home__social-link {
+    font-size: 1.25rem;
+  }
 }

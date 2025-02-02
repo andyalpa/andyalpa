@@ -32,6 +32,13 @@
     text-align: justify;
 }
 
+.about__img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    max-width: none;
+}
+
 .about__skills {
     row-gap: 1.25rem;
 }
@@ -66,5 +73,41 @@
     height: 100%;
     border-radius: inherit;
     transition: width 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+
+  .about__data {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .about__img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .about__info {
+    display: contents;
+  }
+
+  .about__data::before {
+    border-right: 10px solid #36363600;
+    border-bottom: 10px solid var(--containerColor);
+    border-left: 10px solid transparent;
+    top: -3%;
+    left: 10.00rem;
+}
+
+.btn {
+    justify-self: center;
+}
+
+
 }
 

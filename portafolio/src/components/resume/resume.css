@@ -21,6 +21,11 @@
     padding-bottom: 0;
 }
 
+.timeline__subtitle {
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+
 .timeline__item::before {
     content: "";
     width: 1px;
@@ -44,5 +49,20 @@
 .timeline__title {
     font-size: var(--h3FontSize);
     margin-bottom: .5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .resume__container {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .timeline {
+    padding: 1.25rem;
+  }
+
+  .timeline__item {
+    padding-left: 2rem;
+  }
 }
 

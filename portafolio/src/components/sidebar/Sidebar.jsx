@@ -6,11 +6,11 @@ import Darkmode from '../Darkmode';
 const Sidebar = () => {
     return ( 
         <div className="aside">
-            <a href="#home">
-                <img src={Logo} alt="Logo" className="logo"/>
-            </a>
+            <div className='darkmode'>
+                <Darkmode/>
+            </div>
 
-            <Darkmode/>
+            
 
             <nav className='nav'>
                 <div className='nav__menu'>

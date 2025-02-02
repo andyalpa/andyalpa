@@ -5,6 +5,7 @@
     display: inline-block;
     width: 7em;
     cursor: pointer;
+    right: 11px;
 } 
 #toggle {
     opacity: 0;
