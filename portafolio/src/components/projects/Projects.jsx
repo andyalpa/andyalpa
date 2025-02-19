@@ -10,7 +10,7 @@ const Projects = () => {
       {
         name: "Fitness Friends",
         id: 1,
-        githubWebsite: "https://github.com/andyalpa/FitnessFriend",
+        githubWebsite: "https://pt72-fitness-friend-m7u2oy22t-andys-projects-464d6c53.vercel.app",
         liveDemo: "https://fitness-friends.netlify.app/",
         image: project2,
       },
