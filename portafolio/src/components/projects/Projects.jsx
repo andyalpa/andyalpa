@@ -1,36 +1,44 @@
 import React from 'react';
 import './projects.css';
 import project1 from '../../assets/1737677530704.jpg';
-import project2 from '../../assets/1737679277098.jpg';
+import project2 from '../../assets/Screenshot 2025-04-18 113213.png';
 import project3 from '../../assets/1737679118271.jpg';
+import project4 from '../../assets/Screenshot 2025-04-18 112952.png';
 
 const Projects = () => {
 
     const ProjectsArray = [
-      {
-        name: "Fitness Friends",
-        id: 1,
-        githubWebsite: "https://github.com/andyalpa/FitnessFriend",
-        liveDemo: "https://pt72-fitness-friend-m7u2oy22t-andys-projects-464d6c53.vercel.app",
-        image: project2,
-      },
-      {
-        name: "Asteroids",
-        id: 2,
-        githubWebsite: "https://github.com/andyalpa/Asteroids",
-        liveDemo: "https://andyalpa.github.io/Asteroids/",
-        image: project1,
-      },
-      {
-        name: "Mokepon",
-        id: 3,
-        githubWebsite: "https://github.com/andyalpa/mokepon",
-        liveDemo: "https://mokepon.netlify.app/",
-        image: project3,
-      },
+        {
+            name: "Fitness Friends",
+            id: 1,
+            githubWebsite: "https://github.com/andyalpa/FitnessFriend",
+            liveDemo: "https://pt72-fitness-friend-5xy8soizf-andys-projects-464d6c53.vercel.app/",
+            image: project2,
+        },
+        {
+            name: "Asteroids",
+            id: 2,
+            githubWebsite: "https://github.com/andyalpa/Asteroids",
+            liveDemo: "https://andyalpa.github.io/Asteroids/",
+            image: project1,
+        },
+        {
+            name: "Beyond Flatscreen",
+            id: 3,
+            githubWebsite: "https://github.com/andyalpa/beyondflatscreen",
+            liveDemo: "https://beyondflatscreen.vercel.app/",
+            image: project4,
+        },
+        {
+            name: "Mokepon",
+            id: 3,
+            githubWebsite: "https://github.com/andyalpa/mokepon",
+            liveDemo: "https://mokepon.netlify.app/",
+            image: project3,
+        }
     ];
 
-    return ( 
+    return (
         <div className="projects container section" id='projects'>
             <h2 className="section-title">Recent Projects</h2>
             <div className="projects__filters">
@@ -55,7 +63,7 @@ const Projects = () => {
                 ))}
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Projects;
