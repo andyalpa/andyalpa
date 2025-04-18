@@ -1,29 +1,25 @@
 {
   "files": {
-    "main.css": "/andyalpa/static/css/main.0c7333a2.css",
-    "main.js": "/andyalpa/static/js/main.7b2196d4.js",
+    "main.css": "/andyalpa/static/css/main.d89e9b50.css",
+    "main.js": "/andyalpa/static/js/main.47e4a076.js",
     "static/js/488.c5a7233e.chunk.js": "/andyalpa/static/js/488.c5a7233e.chunk.js",
+    "static/media/Screenshot 2025-04-18 112952.png": "/andyalpa/static/media/Screenshot 2025-04-18 112952.1cd8bf6761617942ec27.png",
     "static/media/DSC04295.jpg": "/andyalpa/static/media/DSC04295.980cf5329734377e543b.jpg",
-    "static/media/1737679277098.jpg": "/andyalpa/static/media/1737679277098.8fa6dffe33afd6b6a760.jpg",
+    "static/media/Screenshot 2025-04-18 113213.png": "/andyalpa/static/media/Screenshot 2025-04-18 113213.5443af9defa2617c95b5.png",
     "static/media/-xlarge.jpg": "/andyalpa/static/media/558d5722c0b84e7b41e53bf8158be2df-xlarge.7492aaea344b655817cf.jpg",
     "static/media/Andy-Almeida-FlowCV-Resume-20250128.pdf": "/andyalpa/static/media/Andy-Almeida-FlowCV-Resume-20250128.aaf5920c16dc8f695f6f.pdf",
     "static/media/11494033.png": "/andyalpa/static/media/11494033.b31930e886226073edaf.png",
-    "static/media/avatar-3.svg": "/andyalpa/static/media/avatar-3.c26cf04d3309e9d6b44c60a29d6afb1f.svg",
     "static/media/1737679118271.jpg": "/andyalpa/static/media/1737679118271.4b4515bf1cd1b5cb97e6.jpg",
     "static/media/1737677530704.jpg": "/andyalpa/static/media/1737677530704.0b849843546663901461.jpg",
-    "static/media/avatar-1.svg": "/andyalpa/static/media/avatar-1.9bd61775d357853cd5137125cb6ed013.svg",
-    "static/media/service-3.svg": "/andyalpa/static/media/service-3.0b2114df042b08711802b283fe62e370.svg",
-    "static/media/price-1.svg": "/andyalpa/static/media/price-1.602bf231a8ab3491146db31159c9ae64.svg",
-    "static/media/service-2.svg": "/andyalpa/static/media/service-2.0189a317ca98ff4d0fa0ca26ff3c9244.svg",
-    "static/media/logo.svg": "/andyalpa/static/media/logo.46a6171869b7a4a791e3addf7896cb04.svg",
-    "static/media/dots-bg.svg": "/andyalpa/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
+    "static/media/service-2.svg": "/andyalpa/static/media/service-2.5c151f1353d4629154fbf0e537115128.svg",
+    "static/media/dots-bg.svg": "/andyalpa/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/andyalpa/index.html",
-    "main.0c7333a2.css.map": "/andyalpa/static/css/main.0c7333a2.css.map",
-    "main.7b2196d4.js.map": "/andyalpa/static/js/main.7b2196d4.js.map",
+    "main.d89e9b50.css.map": "/andyalpa/static/css/main.d89e9b50.css.map",
+    "main.47e4a076.js.map": "/andyalpa/static/js/main.47e4a076.js.map",
     "488.c5a7233e.chunk.js.map": "/andyalpa/static/js/488.c5a7233e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c7333a2.css",
-    "static/js/main.7b2196d4.js"
+    "static/css/main.d89e9b50.css",
+    "static/js/main.47e4a076.js"
   ]
 }
