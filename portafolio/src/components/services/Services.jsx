@@ -2,7 +2,6 @@ import React from 'react';
 import './services.css';
 import Image1 from '../../assets/11494033.png'; //Change this images for the real ones
 import Image2 from '../../assets/service-2.svg';
-import Image3 from '../../assets/service-3.svg';
 
 const services = [
     {

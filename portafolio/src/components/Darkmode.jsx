@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Image1 from '../assets/price-1.svg';
 import DarkmodeToggle from './DarkmodeToggle';
 
 const Darkmode = () => {

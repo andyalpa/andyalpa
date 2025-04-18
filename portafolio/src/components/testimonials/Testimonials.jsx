@@ -1,9 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import Image1 from "../../assets/avatar-1.svg";
-import Image3 from "../../assets/avatar-3.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
