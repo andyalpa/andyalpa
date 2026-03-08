@@ -3,15 +3,15 @@
 
 - 🔭 I’m currently working on [FurEverFamily](https://github.com/andyalpa/FurEverFamily)
 
-- 🌱 I’m currently learning **Redux, PHP,**
+- 🌱 I’m currently learning **.lua, C++,**
 
-- 💬 Ask me about **React, JavaScript, Restful APIs, Flask**
+- 💬 Ask me about **ReacT, JavaScript, Restful APIs, VR, Gaming**
 
 - 📫 How to reach me **andyal950626@gmail.com**
 
 - 📄 Know about my experiences [https://flowcv.com/resume/19s08s0j4p](https://flowcv.com/resume/19s08s0j4p)
 
-- ⚡ Fun fact **Did you know that I could talk about tech all day long and never get bored? Whether it's the latest gadgets, groundbreaking innovations, or the intricacies of coding, I'm always up for a tech chat. So, if you ever need a tech buddy, I'm your go-to person!**
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
